@@ -14,7 +14,7 @@ docker build -t react-image .
 
 3. Make and Run container with react image
 ```bash
-docker run -d --name react-app -p 3000:3000 -v %cd%\src:/app/src:ro --env-file ./.env react-image
+docker run -d --name react-app -p 3000:3000 -v %cd%\src:/app/src:ro --env-file ./.env -it react-image
 ```
 
 ### Extra
