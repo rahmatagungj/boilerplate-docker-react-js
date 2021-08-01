@@ -28,3 +28,8 @@ docker exec -it react-app bash
 ```bash
 docker rm react-app -f
 ```
+
+3. Compose 
+```bash
+docker-compose up -d
+```
